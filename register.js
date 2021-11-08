@@ -11,6 +11,7 @@ function bam() {
         ma:ma,
         tuoi:tuoi,
     };
+    danhsach = danhsach || [];
     danhsach.push(task);
     
   localStorage.setItem('danhsach', JSON.stringify(danhsach))
